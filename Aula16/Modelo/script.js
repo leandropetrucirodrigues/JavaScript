@@ -50,8 +50,9 @@ function finalizar(){
         let maior = valores[valores.length -1]
         let menor = valores[0]
         res.innerHTML =''
-        res.innerHTML += `<p> Ao todo, temos ${tot} números cadastrados.<br>O maior valore encontrado é ${maior} e o menor é ${menor}.</p>`
-        
+        res.innerHTML += `<p> Ao todo, temos ${tot} números cadastrados.<br></p>`
+        res.innerHTML += `<p>O maior valor encontrado é ${maior}.<br></p>`
+        res.innerHTML += `<p>O menor valor encontrado é ${menor}.<br></p>`
     }
 
 }
